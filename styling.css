@@ -1,0 +1,183 @@
+body {
+  font: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 1050px;
+  /* border: 1px solid grey;*/
+  margin: 0 auto;
+}
+#header {
+  height: 100px;
+  padding: 10px 0;
+}
+
+#brand {
+  float: left;
+}
+h1 a {
+  font-size: 50px;
+  font-weight: 100;
+  color: red;
+  text-decoration: none;
+}
+
+#searchbar {
+  float: right;
+  background: linear-gradient(#facd89, yellow, lightyellow);
+  background: -webkit-linear-gradient(#facd89, yellow, lightyellow);
+  background: -o-linear-gradient(#facd89, yellow, lightyellow);
+  background: -moz-linear-gradient(#facd89, yellow, lightyellow);
+  width: 400px;
+  height: 50px;
+  padding: 20px 20px 0 20px;
+  margin-top: 20px;
+}
+
+.text {
+  float: left;
+  width: 200px;
+  padding: 5px;
+  font-size: 15px;
+  color: #faa789;
+  background: white url(Images/search.png) right center no-repeat;
+  border: 1px solid red;
+}
+
+.submit {
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background: red;
+  font-size: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+#menu {
+  height: 70px;
+  background: orange;
+  padding: 7px 0;
+}
+ul {
+  list-style: none;
+}
+
+#menu ul li {
+  float: left;
+  padding: 0 30px;
+  height: 30px;
+  border-right: 1px solid saddlebrown;
+}
+#menu ul li:last-child {
+  border-right: none;
+}
+#menu ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: saddlebrown;
+  line-height: 30px;
+  transition: font-size 0.3s ease;
+  -webkit-transition: font-size 0.3s ease;
+  -moz-transition: font-size 0.3s ease;
+  -o-transition: font-size 0.3s ease;
+  -ms-transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover,
+#menu ul a.active {
+  font-size: 20px;
+  font-weight: bold;
+  color: #da0505;
+}
+
+#introduction {
+  background: linear-gradient(orange, yellow);
+  background: -webkit-linear-gradient(orange, yellow);
+  background: -o-linear-gradient(orange, yellow);
+  background: -moz-linear-gradient(orange, yellow);
+  padding: 30px;
+  margin: 16px 0;
+}
+
+#introduction h3 {
+  font-size: 45px;
+  color: firebrick;
+  font-weight: normal;
+}
+
+#introduction p {
+  font-size: 25px;
+  color: saddlebrown;
+  text-align: justify;
+}
+
+.sidebar {
+  height: 500px;
+  width: 450px;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.sidebar h3 {
+  color: saddlebrown;
+  font-size: 30px;
+}
+
+.sidebar ul {
+  padding-top: 8px;
+}
+
+#leftsidebar ul li {
+  padding-top: 4px;
+  padding-bottom: 6px;
+  list-style-image: url(Images/arrow.png);
+  padding-left: 10px;
+}
+
+#rightsidebar ul li {
+  padding-bottom: 20px;
+  padding-top: 17px;
+  padding-left: 70px;
+  background: url(Images/check.png) no-repeat left center;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: darkgoldenrod;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  text-decoration: none;
+  color: red;
+  font-size: 23px;
+  font-weight: bold;
+  transition: font-size 0.3s ease;
+  -webkit-transition: font-size 0.3s ease;
+  -moz-transition: font-size 0.3s ease;
+  -o-transition: font-size 0.3s ease;
+  -ms-transition: font-size 0.3s ease;
+}
+#leftsidebar {
+  float: left;
+}
+
+#rightsidebar {
+  float: right;
+}
+
+.footer {
+  height: 60px;
+  background: linear-gradient(orange, yellow);
+  background: -webkit-linear-gradient(orange, yellow);
+  background: -o-linear-gradient(orange, yellow);
+  background: -moz-linear-gradient(orange, yellow);
+  padding: 10px 30px;
+  margin-top: 15px;
+}
